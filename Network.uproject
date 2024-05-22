@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2119EBD4-49B9-E9B1-74E1-0EA64097D8A7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Network",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG",
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "Text3D",
+			"Enabled": true
+		}
+	]
+}
